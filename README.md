@@ -6,7 +6,7 @@ Lousise came to me wanting to analyze the outcome (success, failure, cancelation
 
 ### Analysis of Outcomes Based on Launch Date
 
-[Analysis of Outcomes Based on Launch Date](resources/resources/Theater_Outcomes_vs_Launch.png)
+[Analysis of Outcomes Based on Launch Date](resources/Theater_Outcomes_vs_Launch.png)
 ### Analysis of Outcomes Based on Goals
 
 [Analysis of Outcomes Based on Goals](resources/Outcomes_vs_Goals.png)
