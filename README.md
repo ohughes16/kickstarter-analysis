@@ -2,9 +2,9 @@
 ## Overview of Project
  Lousise came to me wanting to analyze the outcome (success, failure, cancelation) of theatre Kickstarter campaigns based on when the campaign was launched as well as the outcome of kickstarter campaigns based on what percentage of their funding goal was met.  
 ### Purpose
-After the Lousie's play *Fever* came close to reaching its funding goal, Louise became interested in how other kickstarters, especially theatre kickstarters did with funding and timeline. To start the analysis, I was provided with a global list of Kickstarter campaigns broken out by category, outcome, funding goals,
+After the Lousie's play *Fever* came close to reaching its funding goal, Louise became interested in how other kickstarters, especially theatre kickstarters, were affected by funding and the time at which they were launched. 
 ## Analysis and Challenges
-
+To start the analysis, I was provided with a global list of Kickstarter campaigns broken out by category, outcome, funding goals, start date, and funding actuals.
 ### Analysis of Outcomes Based on Launch Date
 
 [Analysis of Outcomes Based on Launch Date](resources/Theater_Outcomes_vs_Launch.png)
