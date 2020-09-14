@@ -5,9 +5,9 @@ Lousise came to me wanting to analyze the outcome (success, failure, cancelation
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
-
+[Analysis of Outcomes Based on Launch Date](resources/Outcomes_vs_Goals.png)
 ### Analysis of Outcomes Based on Goals
-
+[Analysis of Outcomes Based on Goals](resources/
 ### Challenges and Difficulties Encountered
 
 ## Results
