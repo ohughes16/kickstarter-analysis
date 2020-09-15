@@ -1,15 +1,17 @@
 # Kickstarter Analysis
 ## Overview of Project
+After the Lousie's play *Fever* came close to reaching its funding goal yet still failing, Louise became interested in how other kickstarters, especially theatre kickstarters, were affected by funding and the time at which they were launched.
+
 Louise came to me wanting to analyze the outcome (success, failure, cancelation) of theatre Kickstarter campaigns based on when the campaign was launched as well as the outcome of kickstarter campaigns based on what percentage of their funding goal was met.  
-After the Lousie's play *Fever* came close to reaching its funding goal yet still failing, Louise became interested in how other kickstarters, especially theatre kickstarters, were affected by funding and the time at which they were launched. 
+
 ## Analysis and Challenges
-To start the analysis, I was provided with a global list of Kickstarter campaigns broken out by country, category, outcome, funding goals, start date, and funding actuals. The kickstarter campaigns varied 
+To start the analysis, I was provided with a global list of Kickstarter campaigns broken out by country, category, outcome, funding goals, start date, and funding actuals.
 
 ### Analysis of Outcomes Based on Launch Date
 
 [Analysis of Outcomes Based on Launch Date](resources/Theater_Outcomes_vs_Launch.png)
 
-The above link displays the breakdown of success and failures of kickstarter campaigns based on their launch date. I extracted the date from the 'Date Created Conversion' field in the Kickstarter excel sheet. 
+The above link displays the breakdown of success and failures of kickstarter campaigns based on their launch date from 2009 through 2017. I extracted the date from the 'Date Created Conversion' field in the Kickstarter excel sheet. In total, there were 1,269 theatre kickstarter campaigns in that date range. The number of successful, failed, and canceled campaigns were broken out using a pivot table to analyse the data from the initial Kickstarter excel sheet. The  
 
 ### Analysis of Outcomes Based on Goals
 
@@ -21,9 +23,10 @@ The above link will direct you to a visual breakdown of success or failure of ki
 =COUNTIFS(Kickstarter!$D:$D, "<1000", Kickstarter!$R:$R, "plays", Kickstarter!$F:$F, "successful")
 =COUNTIFS(Kickstarter!$D:$D, "<=4999", Kickstarter!$D:$D,">=1000", Kickstarter!$R:$R, "plays", Kickstarter!$F:$F, "successful")
 ```
-
+After the successes, failures, and cancelations were enumerated in their columns using the `COUNTIFS` function, the total number of projects within each funding group was summed to determine what percentage of the kickstarters in the funding group were successful.
 
 ### Challenges and Difficulties Encountered
+
 
 
 ## Results
