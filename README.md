@@ -8,11 +8,18 @@ To start the analysis, I was provided with a global list of Kickstarter campaign
 ### Analysis of Outcomes Based on Launch Date
 
 [Analysis of Outcomes Based on Launch Date](resources/Theater_Outcomes_vs_Launch.png)
+
 ### Analysis of Outcomes Based on Goals
 
 [Analysis of Outcomes Based on Goals](resources/Outcomes_vs_Goals.png)
 
-The above link will direct you to a visual breakdown of success or failure of kickstarter plays based on the percent of the funding goal that they obtained. To complete this analysis I calculated the number of successful plays and unsuccessful plays that fell into segmented brackets of 
+The above link will direct you to a visual breakdown of success or failure of kickstarter plays based on the percent of the funding goal that they obtained. To complete this analysis I calculated the number of successful plays and unsuccessful plays that fell into designated ranges of funding goals on the Kickstarter excel sheet. 
+
+```
+=COUNTIFS(Kickstarter!$D:$D, "<1000", Kickstarter!$R:$R, "plays", Kickstarter!$F:$F, "successful")
+=COUNTIFS(Kickstarter!$D:$D, "<=4999", Kickstarter!$D:$D,">=1000", Kickstarter!$R:$R, "plays", Kickstarter!$F:$F, "successful")
+```
+
 ### Challenges and Difficulties Encountered
 
 
