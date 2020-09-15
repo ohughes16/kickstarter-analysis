@@ -32,4 +32,5 @@ After the successes, failures, and cancelations were enumerated in their columns
 ## Results
 
 When analyzing the results of the Outcomes based on Launch Date for the theatre kickstarters, it appeared that campaigns that began in May were the most successful. This analysis looked at the outcome of theatre campaigns around the world. Louise is most interested in analyzing plays like *Fever* which was specifically a U.S. based compaign. In the analysis of outcomes based on launch date, success could vary dependnging on region and therefore I would recommend analyzing success of plays within the U.S. for better results.
+
 When analyzing the funding of the plays, I would recommend normalizing the currencies to the evivalent in U.S. dollars when comparing theatre kickstarter campaigns globally. As is, the goal funding data is skewed to the left when looking at a range of funding from 0-50,000. Louise's play *Fever* had a goal of $2,885. If Louise wants to look at other plays similar to *Fever* I would recommend her focusing the analysis on plays ranging from 0-20,000 in funding to focus her study with tighter funding brackets.
