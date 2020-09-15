@@ -5,9 +5,12 @@ Louise came to me wanting to analyze the outcome (success, failure, cancelation)
 After the Lousie's play *Fever* came close to reaching its funding goal yet still failing, Louise became interested in how other kickstarters, especially theatre kickstarters, were affected by funding and the time at which they were launched. 
 ## Analysis and Challenges
 To start the analysis, I was provided with a global list of Kickstarter campaigns broken out by country, category, outcome, funding goals, start date, and funding actuals. The kickstarter campaigns varied 
+
 ### Analysis of Outcomes Based on Launch Date
 
 [Analysis of Outcomes Based on Launch Date](resources/Theater_Outcomes_vs_Launch.png)
+
+The above link displays the breakdown of success and failures of kickstarter campaigns based on their launch date. I extracted the date from the 'Date Created Conversion' field in the Kickstarter excel sheet. 
 
 ### Analysis of Outcomes Based on Goals
 
@@ -19,6 +22,7 @@ The above link will direct you to a visual breakdown of success or failure of ki
 =COUNTIFS(Kickstarter!$D:$D, "<1000", Kickstarter!$R:$R, "plays", Kickstarter!$F:$F, "successful")
 =COUNTIFS(Kickstarter!$D:$D, "<=4999", Kickstarter!$D:$D,">=1000", Kickstarter!$R:$R, "plays", Kickstarter!$F:$F, "successful")
 ```
+
 
 ### Challenges and Difficulties Encountered
 
