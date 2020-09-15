@@ -17,7 +17,7 @@ The above link displays the breakdown of success and failures of theatre kicksta
 
 [Analysis of Outcomes Based on Goals](resources/Outcomes_vs_Goals.png)
 
-The above link will direct you to a visual breakdown of success or failure of kickstarter plays based on the percent of their funding goal that they obtained. Plays is a subcategory to the parent category of theatre. To complete this analysis I calculated the number of successful plays and unsuccessful plays that fell into designated ranges of funding goals on the Kickstarter excel sheet. 
+The above link will direct you to a visual breakdown of success or failure of kickstarter plays based on the percent of their funding goal that they obtained. Plays is a subcategory to the parent category of theatre. To complete this analysis I calculated the number of successful plays and unsuccessful plays that fell into designated ranges of funding goals on the Kickstarter excel sheet. In total, there were 1,047 kickstarters that fell into the subcategory of plays that were analyzed.
 
 ```
 =COUNTIFS(Kickstarter!$D:$D, "<1000", Kickstarter!$R:$R, "plays", Kickstarter!$F:$F, "successful")
@@ -27,7 +27,7 @@ After the successes, failures, and cancelations were enumerated in their columns
 
 ### Challenges and Difficulties Encountered
 
-
+There were some challenges on focusing on the desired outcome of the analysis. The data provided with the Kickstarter excel sheet had a lot of data that was irrelavant to what Lousie wanted to focus on with the ability to dive into multiple analyses. If Louise wanted to focus on productions like *Fever*, a more defined description of what attributes those kickstarters should have would have helpful. Should I have focused on U.S. based kickstarters? Should I have included the subcategory 'spaces' in the analysis? Should we have looked at the length of the campaign and how that affected success or failure? 
 
 ## Results
 
