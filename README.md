@@ -29,6 +29,7 @@ The above link will direct you to a visual breakdown of success or failure of ki
 =COUNTIFS(Kickstarter!$D:$D, "<=4999", Kickstarter!$D:$D,">=1000", Kickstarter!$R:$R, "plays", Kickstarter!$F:$F, "successful")
 ```
 After the successes, failures, and cancelations were enumerated in their columns using the `COUNTIFS` function, the total number of projects within each funding group was summed to determine what percentage of the kickstarters in the funding group were successful. This analysis included all kickstarter plays globally. This resulted in having twelve different currencies involved within each funding goal (see below image). The funding goals were not normalized to a single currency and therefore may not provide the best representation of normalized funding for the play campaigns.
+
 ![Currency](https://user-images.githubusercontent.com/64506842/94173192-65f6e080-fe48-11ea-80a2-18fbb6c42a17.png)
 
 ### Challenges and Difficulties Encountered
