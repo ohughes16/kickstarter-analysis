@@ -11,11 +11,16 @@ To start the analysis, I was provided with a global list of Kickstarter campaign
 
 [Analysis of Outcomes Based on Launch Date](resources/Theater_Outcomes_vs_Launch.png)
 
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/64506842/94173215-7444fc80-fe48-11ea-829a-fb2cbdb28331.png)
+
 The above link displays the breakdown of success and failures of theatre kickstarter campaigns based on their launch date from 2009 through 2017. I extracted the date from the 'Date Created Conversion' field in the Kickstarter excel sheet. In total, there were 1,269 theatre kickstarter campaigns in that date range. The number of successful, failed, and canceled campaigns were broken out using a pivot table to analyse the data from the initial Kickstarter excel sheet. Louise was curious to know if there were certain months that were more or less successful for starting a theatre campaign. 
 
 ### Analysis of Outcomes Based on Goals
 
 [Analysis of Outcomes Based on Goals](resources/Outcomes_vs_Goals.png)
+
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/64506842/94173205-6e4f1b80-fe48-11ea-9171-31b44cbe8dd5.png)
+
 
 The above link will direct you to a visual breakdown of success or failure of kickstarter plays based on the percent of their funding goal that they obtained. Plays is a subcategory to the parent category of theatre. To complete this analysis I calculated the number of successful plays and unsuccessful plays that fell into designated ranges of funding goals on the Kickstarter excel sheet. In total, there were 1,047 kickstarters that fell into the subcategory of plays that were analyzed.
 
@@ -23,7 +28,8 @@ The above link will direct you to a visual breakdown of success or failure of ki
 =COUNTIFS(Kickstarter!$D:$D, "<1000", Kickstarter!$R:$R, "plays", Kickstarter!$F:$F, "successful")
 =COUNTIFS(Kickstarter!$D:$D, "<=4999", Kickstarter!$D:$D,">=1000", Kickstarter!$R:$R, "plays", Kickstarter!$F:$F, "successful")
 ```
-After the successes, failures, and cancelations were enumerated in their columns using the `COUNTIFS` function, the total number of projects within each funding group was summed to determine what percentage of the kickstarters in the funding group were successful. This analysis included all kickstarter plays globally. This resulted in having twelve different currencies involved within each funding goal. The funding goals were not normalized to a single currency and therefore may not provide the best representation of normalized funding for the play campaigns.
+After the successes, failures, and cancelations were enumerated in their columns using the `COUNTIFS` function, the total number of projects within each funding group was summed to determine what percentage of the kickstarters in the funding group were successful. This analysis included all kickstarter plays globally. This resulted in having twelve different currencies involved within each funding goal (see below image). The funding goals were not normalized to a single currency and therefore may not provide the best representation of normalized funding for the play campaigns.
+![Currency](https://user-images.githubusercontent.com/64506842/94173192-65f6e080-fe48-11ea-80a2-18fbb6c42a17.png)
 
 ### Challenges and Difficulties Encountered
 
